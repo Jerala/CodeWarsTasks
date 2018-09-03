@@ -1,17 +1,17 @@
 ﻿using System;
 using NUnit.Framework;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace CodeWarsTasks
+namespace CodeWarsTasks.CodeWarsTasksTests
 {
     [TestFixture]
     class LabyrinthPathFinderTest
     {
         [Test]
-        static void sampleTests()
+        public static void sampleTests()
         {
             string a = ".W.\n" +
                   ".W.\n" +

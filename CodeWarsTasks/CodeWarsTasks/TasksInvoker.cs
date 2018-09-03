@@ -10,6 +10,7 @@ namespace CodeWarsTasks
     {
         static void Main(string[] args)
         {
+         
         }
     }
 }
