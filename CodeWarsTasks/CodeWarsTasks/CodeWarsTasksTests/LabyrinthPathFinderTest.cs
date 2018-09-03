@@ -35,10 +35,10 @@ namespace CodeWarsTasks.CodeWarsTasksTests
                   ".....W\n" +
                   "....W.";
 
-            Assert.AreEqual(true, LabyrinthPathFinder.PathFinder(a));
-            Assert.AreEqual(false, LabyrinthPathFinder.PathFinder(b));
-            Assert.AreEqual(true, LabyrinthPathFinder.PathFinder(c));
-            Assert.AreEqual(false, LabyrinthPathFinder.PathFinder(d));
+            Assert.AreEqual(true, PathFinderInLabyrinth.LabyrinthPathFinder.PathFinder(a));
+            Assert.AreEqual(false, PathFinderInLabyrinth.LabyrinthPathFinder.PathFinder(b));
+            Assert.AreEqual(true, PathFinderInLabyrinth.LabyrinthPathFinder.PathFinder(c));
+            Assert.AreEqual(false, PathFinderInLabyrinth.LabyrinthPathFinder.PathFinder(d));
         }
     }
 }
