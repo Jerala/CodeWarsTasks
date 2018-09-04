@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BattleFieldValidator\BattleFieldValidator.cs" />
+    <Compile Include="CodeWarsTasksTests\BattleFieldValidatorTest.cs" />
     <Compile Include="CodeWarsTasksTests\LabyrinthPathFinderTest.cs" />
     <Compile Include="PathFinderInLabyrinth\LabyrinthPathFinder.cs" />
     <Compile Include="TasksInvoker.cs" />
