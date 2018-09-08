@@ -52,6 +52,8 @@
     <Compile Include="BattleFieldValidator\BattleFieldValidator.cs" />
     <Compile Include="CodeWarsTasksTests\BattleFieldValidatorTest.cs" />
     <Compile Include="CodeWarsTasksTests\LabyrinthPathFinderTest.cs" />
+    <Compile Include="CodeWarsTasksTests\ParserTest.cs" />
+    <Compile Include="ParseInt_Reloader\Parser.cs" />
     <Compile Include="PathFinderInLabyrinth\LabyrinthPathFinder.cs" />
     <Compile Include="TasksInvoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
