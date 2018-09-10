@@ -31,7 +31,7 @@ namespace CodeWarsTasks.BestTravel
             for (int i = 0; i < list.Count; i++)
             {
                 int currElem = list[i];
-                dists.AddRange(getDists(k - 1, list.GetRange(1 + i, list.Count)));
+                dists.AddRange(getDists(k - 1, list.GetRange(1 + i, list.Count - 1 - i)));
                 for (int j = prevSize; j < dists.Count; j++)
                     dists[j] = dists[j] + currElem;
                 prevSize = dists.Count;
