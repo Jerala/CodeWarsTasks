@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattleFieldValidator\BattleFieldValidator.cs" />
+    <Compile Include="BestTravel\BestTravel.cs" />
     <Compile Include="CodeWarsTasksTests\BattleFieldValidatorTest.cs" />
+    <Compile Include="CodeWarsTasksTests\BestTravelTest.cs" />
     <Compile Include="CodeWarsTasksTests\LabyrinthPathFinderTest.cs" />
     <Compile Include="CodeWarsTasksTests\ParserTest.cs" />
     <Compile Include="ParseInt_Reloader\Parser.cs" />
